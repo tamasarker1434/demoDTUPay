@@ -1,0 +1,3 @@
+org\acme\Controllers\dtuPayRegUserController.class
+org\acme\Services\RegDtuPayUserService.class
+org\acme\Models\DtuPayUser.class
