@@ -6,6 +6,7 @@ public class Customer {
     private  String cpr;
     private  Double balance;
     private  String bankAccount;
+    private  String userType;
     public String getName() {
         return name;
     }
@@ -16,12 +17,13 @@ public class Customer {
 
     public Customer(){}
 
-    public Customer(int id,String name,String cpr, Double balance, String bankAccount){
+    public Customer(int id,String name,String cpr, Double balance, String bankAccount,String userType){
         this.id = id;
         this.cpr = cpr;
         this.name = name;
         this.balance = balance;
         this.bankAccount = bankAccount;
+        this.userType= userType;
     }
 
     public Double getBalance() {
@@ -56,4 +58,11 @@ public class Customer {
         this.id = id;
     }
 
+    public String getUserType() {
+        return userType;
+    }
+
+    public void setUserType(String userType) {
+        this.userType = userType;
+    }
 }
